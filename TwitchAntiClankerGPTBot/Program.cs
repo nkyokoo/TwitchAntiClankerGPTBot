@@ -19,7 +19,7 @@ var envVars = DotEnv.Read();
 string twitchUsername = envVars["TWITCH_USERNAME"];
 string twitchToken = envVars["TWITCH_OAUTH_TOKEN"];
 string twitchChannel = envVars["TWITCH_CHANNEL"];
-string openaiKey = envVars["OPENAI_API_KEY"];
+string openaiKey = envVars["OPEN_AI_KEY"];
 
 // Validate required environment variables
 if (string.IsNullOrWhiteSpace(twitchUsername) ||
