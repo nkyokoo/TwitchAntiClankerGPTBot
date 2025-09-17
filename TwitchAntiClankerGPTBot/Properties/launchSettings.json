@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TwitchAntiClankerGPTBot": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
